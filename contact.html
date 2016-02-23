@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<meta name="author" content="Andrew">
+	<meta name="keywords" content="Phipps">
+	<meta name="description" content="Phipps website for students">
+	<title>Phipps Conservatory</title>
+	<link href="css/styles.css" rel="stylesheet" type="text/css" />
+
+</head>
+<body>
+
+<div id="Container">
+
+   <div id="Heading">
+	  <header>
+	  <img src="images/logo2.jpg" alt="Logo" height:"50" width:"50" />
+	  </header>
+	  <nav>
+	    <a href="index.html">Main</a>	 
+	    <a href="exhibits.html">Our Exhibits</a>
+	    <a class="selected" href="contact.html">Contact Us</a>
+	    <a href="about.html">About Us</a>
+	  </nav>
+   </div>
+   
+   <div id="maps">
+      <h1><center>Where Are We?</center></h1>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3036.639537544701!2d-79.94798899999999!3d40.438979999999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8834f189f8429905%3A0x28a12fe50786460d!2sPhipps+Conservatory+and+Botanical+Gardens!5e0!3m2!1sen!2sus!4v1427347227847" width="600" height="450" frameborder="0" style="border:0"></iframe>
+   </div>
+   
+   <div id="information">
+      <table border="4">
+		  <tr>
+		    <th colspan="2">Our Information</th>
+		  </tr>
+		  <tr>
+			  <th>Location</th>
+			  <td><center>One Schenley Park | Pittsburgh, PA 15213-3830</center></td>   
+		  </tr>
+		  <tr>
+			  <th>Hours</th>
+			  <td><center><b>Friday :</b> 9:30 a.m - 10 p.m.<br/> <b>Otherwise :</b> 9:30 a.m. - 5 p.m.</center></td> 
+		  </tr>
+		  <tr>
+			  <th>Our Contact Number</th> 
+			  <td><center><b>Phone :</b> 412-441-4442<br/><b>Fax :</b> 412-665-2368</center></td>
+		  </tr>
+		  <tr>
+			  <th>Our Cafe Hours</th>
+			  <td><center><b>Coffee + Grab @ Go :</b><br/>10 - 11 a.m. and 2 - 4 p.m.</center></td> 
+		  </tr>
+		  <tr>
+		  	  <th>Lunch</th>
+			  <td><center>11 a.m. - 2 p.m.</center></td>
+	      </tr>
+		  <tr>
+		  	  <th>Admission Prices</th>
+			  <td><center><b>Members :</b> Free<br/><b>Adults and Children under 2 :</b> 15$<br/><b>Seniors and students :</b> 14$<br/><b>Children 2 - 18 :</b> 11$ </center></td>
+		  </tr>
+		  <tr>
+		  	  <th>Email Us</th>
+			  <td><center><a href="mailto:Phipps(generalinformation@pc.org)?subject=MailTo Comments&cc=generalinformation@pc.org&bcc=id@internet.node">Send Us An Email!</a></center></td>
+		  </tr>	
+		   
+		
+      </table> 
+   </div>
+   
+   <div id="contact">
+     <h1><center>Fill Out This Form To Contact Us!</center></h1>
+     <form action="MAILTO:generalinformation@pc.org" method="post" enctype="text/plain">
+    	 <fieldset>
+	     <center>
+		   <legend><h2><b>What Do You Need Help With Today?</b></h2></legend>
+		   <label for="name"><h3><b>Name:</b></h3></label> <br/>
+		   <input type="text" id="name" name="name" size="20" maxlength ="250" required><br/><br/>
+		   <label for="txtDate"><h3><b>Zip Code :</b></h3></label> <br/>
+		   <input type="text" id="Zip" name="Zip" size="20" minlength="5" maxlength ="5" required><br/><br/>
+	     </center>
+	     </fieldset>
+	  
+	 <fieldset>
+	 <center>
+		 <legend><h2><b>Tell Us What We Can Do.</b></h2></legend>
+		 <label fr="message"><h3><b>Message :</h3></b></label> <br/>
+		 <textarea id="message" name="message" value="Type your Message" rows="10" cols="50" maxlength="1000"> </textarea><br/><br/>
+	 </center>
+	 </fieldset>
+	  
+	 <fieldset>
+	    <center>
+		  <legend><h2><b>Help Us Improve</b></h2></legend>
+		  <label for="source">How did you find out about Phipps?</label>
+		  <select name="source">
+			  <option value="Google" selected>Google</option>
+			  <option value="news">News article</option>
+			  <option value="friend">Friend</option>
+			  <option value="other">Other</option><br/>
+		  </select><br/><br/>
+		  <label><h2><b>Please indicate if you want to receive updates via email:</h2></b></label><br/>
+		  <input type="checkbox" id="signup" name="signup" value="yes">Yes, please update me!<br/><br/>
+		  <label for="email">Please provide your email address:</label><br/>
+		  <input type="email" id="email" name="email" value="" Placeholder = "abc@defg.com" required ><br/><br/>
+	    </center>
+	 </fieldset>
+	  
+	 <fieldset>
+	 <center>
+	    <input type ="image" src="images/send.gif" alt="Submit" name= "btnimage" value ="Submit">
+	    </center>
+	 </fieldset>
+	  
+    </form>
+	  	
+  </div>
+</div>
+
+<footer>
+		
+		<div id="media">
+		<h3><center>Check Us Out Here!</center></h3>
+		<a href="https://www.facebook.com/phippsconservatory" target="_blank">
+		<image src="images/fb.png" alt="Phipps Facebook"/></a>
+		<a href="https://twitter.com/phippsnews" target="_blank">
+		<image src="images/twitter.jpg" alt="Phipps Twitter"/></a>
+		<a href="https://www.linkedin.com/company/phipps-conservatory" target="_blank">
+		<image src="images/linkdn.png" alt="Phipps LinkdIn"/></a>
+		<a href="https://phipps.conservatory.org/" target="_blank">
+		<image src="images/logo2.jpg" alt="Phipps Homepage"/></a>
+		</div>
+		
+		<div id="final">
+		&copy; Phipps 2015
+		</div>
+		
+</footer>
+ 			 
+</body>
+</html>
+
+    <!--Made by Andrew Wang 3/25/2015 -->

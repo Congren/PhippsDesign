@@ -1,0 +1,212 @@
+/* 	CSS Styling for the 67-250 Web Development Project */
+html {
+    overflow-y: scroll;
+    overflow-x:scroll; 
+}
+
+#Container {
+    background-color:#E6E6E6;
+}
+
+#tabs{
+    margin-top:20px;
+}
+
+#contact{
+    margin-top:30px;
+    width:100%;
+    display:block;
+    float:left; 
+}
+
+footer img{
+    height:50px;
+    width:50px; 
+}
+
+#yelpwidget{
+    float:right;
+    position:relative;
+    display:inline;
+    padding-right:50px;
+    margin-top:50px;
+    margin-left:20px;
+}
+
+form {
+	width: 500px;
+	margin: auto;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #075F8A;
+	padding: 10px;	
+    background-color:#F5DA81;  
+    border-radius:20px;
+}
+
+#video{
+       float:left;
+       margin-top:50px;
+       margin-left:20px;
+}
+
+#galleryThumbnail{
+    float:left; 
+    display:inline; 
+    margin-left:20px;
+    margin-right:20px;
+    border-radius:5px;
+}
+
+#information{
+    display:absolute;
+    float:right;
+    margin-top:30px;
+    width:400px;
+    border-radius:5px;
+}
+
+table {
+	width: 100%;
+    height:450px;
+    margin-top:80px;
+	border-style: solid;
+	border-width: 3px;
+	border-color: #075F8A;
+	border-spacing: 3px;
+	table-layout: auto;
+    border-collapse:collapse; 
+}
+
+#maps{
+    margin-top:30px;
+    width:300px;
+    float:left;
+}
+
+iframe {
+       display:block;
+       margin:auto;
+}
+
+#container-graph{
+    height:70%;
+    width:70%;
+    background-color:#FFFF00;
+    margin: 0 auto;
+}
+
+#tabs-1 img{
+    width:200px;
+    height:200px%;
+    text-align:center;
+}
+
+#Heading img{
+    width:200px;
+    height:200px;
+    margin-left:50px;
+    margin-top:50px; 
+}
+
+#Heading h1{
+    color:#0B6121; 
+}
+#Heading nav{
+    border-top:5px;
+    border-bottom:5px;
+    border-top-color:#C0C0C0;
+    border-bottom-color:#C0C0C0;
+    position:absolute;
+    bottom:0;
+    right:0;  
+}
+.header {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    border-radius:5px;
+}
+#Heading{
+    background: url("../images/phippsheader.jpg");
+    height:300px;
+    position:relative;
+    margin-left: auto;
+    margin-right: auto;
+    width:100%;
+    background-size:1600px 300px;
+}
+
+#Heading nav a{
+    text-decoration: none;
+	font-size: 1.5em;
+	font-weight:200;
+	padding: 10px;
+	color: #2EFEF7;
+    border: .5px solid white;
+    background:#045FB4;
+}
+
+footer {
+	clear: both;
+	margin: 0;
+	padding: .5em;
+	color: #333333;
+	font-variant: small-caps; 
+	font-size: .813em;
+	text-align: center;
+}
+
+Info p.info{
+    text-align: justify;
+} 
+
+#News h3{
+    margin-top:20px;
+    padding-bottom:1em;
+    font-family: Georgia, serif;
+    font-size: 1.5em;
+    font-weight: bold;
+    color:#8B8989;
+    margin-left:10px;
+}
+
+#Heading nav a.selected {
+	background: #f6f6f6;
+	color: #298A08;	
+}
+
+#Heading nav a:hover {	
+	background: #f6f6f6;
+	color: #8A0808;
+}
+
+#Heading nav a.selected:hover {
+	background: #f6f6f6;
+	color: #bbbbbb;	
+}
+
+#News {
+    float:left;
+    width:300px;
+    padding-top:1em;
+}
+
+#News h3 {
+	font-size: 1.125em;
+	border-bottom: 1px dotted #ccc;
+}
+
+#Info {
+    margin-top:25px;
+	float: left;
+	width: 800px;
+	margin: 0;
+	padding: 1em;
+	border-right: 1px dotted #ccc;
+}
+
+#Info img{
+    height:400px;
+    width:100%;
+}
